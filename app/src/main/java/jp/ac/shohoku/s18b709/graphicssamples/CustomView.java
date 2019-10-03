@@ -17,14 +17,10 @@ import android.view.View;
 
 public class CustomView extends View {
     //コントラクタ1
-    public CustomView(Context context AttributeSet attrs, int defStyle) {
-        super(context, attrs, defStyle);
+    public CustomView(Context context) {
+        super(context);
     }
 
-    //コンストラクタ2
-    public CustomView(Context context, AttributeSet attrs) {
-        super(context, attrs);
-    }
 
     //コントラクタ3
     public CustomView(Context context, AttributeSet attrs, int defStyle) {
