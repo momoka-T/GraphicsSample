@@ -42,7 +42,7 @@ public class CustomView extends View {
         p.setStyle(Style.STROKE);//Styleを設定: 線で描く
         p.setColor(Color.DKGRAY);//色を設定
         canvas.drawRect(new Rect(5, 5, w - 10, h - 10), p);//長方形を描画
-        Resources rs = this.getContext().getResources();
+        Resources rs = this.getResources();
         Bitmap bmp = BitmapFactory.decodeResource(rs, R.drawable.illumination);
         canvas.drawBitmap(bmp, 0, 0, p);  //画像の左上をCanvasの(0,0)に合わ
         for (int i = 0; i < 10; i++) {

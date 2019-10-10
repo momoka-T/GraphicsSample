@@ -9,8 +9,8 @@
 
     <jp.ac.shohoku.s18b709.graphicssample.CustomView
         android:id="@+id/CustomView"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_width="226dp"
+        android:layout_height="414dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
